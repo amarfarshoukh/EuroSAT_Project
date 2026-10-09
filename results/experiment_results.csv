@@ -1,0 +1,1 @@
+experiment_id,stage,model_name,architecture_change,kernel_size,stride,padding,batchnorm,optimizer,learning_rate,scheduler,augmentation,epochs,batch_size,total_params,trainable_params,peak_val_accuracy,final_train_accuracy,final_val_accuracy,final_val_loss,test_accuracy,runtime_seconds,inference_latency_ms,generalization_gap,checkpoint,notes
