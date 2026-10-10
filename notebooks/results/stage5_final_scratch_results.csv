@@ -1,0 +1,2 @@
+Model,Parameters,Best Epoch,Peak Val Accuracy (%),Val Loss at Best,Train Accuracy at Best (%),Generalization Gap (%),Test Accuracy (%),Runtime (min),Latency (ms/image),Optimizer,Learning Rate,Scheduler,Augmentation,Checkpoint
+Final Optimized Scratch CNN,2193674,10,90.59,0.2778,92.26,1.67,91.04,21.61,1.9726,AdamW,0.001,StepLR,None,best_scratch_cnn.pth
