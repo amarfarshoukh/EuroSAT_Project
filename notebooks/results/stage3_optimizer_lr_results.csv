@@ -1,0 +1,10 @@
+Optimizer,Learning Rate,Scheduler,Parameters,Best Epoch,Peak Val Accuracy (%),Val Loss at Best,Train Accuracy at Best (%),Generalization Gap (%),Runtime (min),Checkpoint
+AdamW,0.001,None,2193674,6,88.84,0.3487,89.01,0.17,9.7,stage3_adamw_1e-3.pth
+AdamW,0.0001,None,2193674,6,88.72,0.3375,90.23,1.52,9.74,stage3_adamw_1e-4.pth
+Adam,0.001,None,2193674,6,88.67,0.3359,88.68,0.01,11.0,stage3_adam_1e-3.pth
+Adam,0.0001,None,2193674,6,88.32,0.3403,90.3,1.98,11.75,stage3_adam_1e-4.pth
+SGD,0.01,None,2193674,4,81.95,0.5208,84.44,2.49,15.43,stage3_sgd_1e-2.pth
+SGD,0.001,None,2193674,5,80.0,0.5673,86.15,6.15,10.79,stage3_sgd_1e-3.pth
+SGD,0.0001,None,2193674,5,74.69,0.7303,74.77,0.08,10.76,stage3_sgd_1e-4.pth
+AdamW,0.01,None,2193674,5,73.21,0.8034,75.14,1.93,10.13,stage3_adamw_1e-2.pth
+Adam,0.01,None,2193674,4,71.14,0.8231,71.44,0.31,10.3,stage3_adam_1e-2.pth
