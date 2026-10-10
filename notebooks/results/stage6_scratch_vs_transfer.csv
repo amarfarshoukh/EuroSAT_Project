@@ -1,0 +1,5 @@
+Model,Test Accuracy (%),Parameters,Trainable Parameters,Runtime (min),Latency (ms/image)
+Scratch CNN,91.04,2193674,2193674,21.61,1.9726
+ResNet18 Frozen,85.58,11181642,5130,8.64,3.1964
+ResNet18 Partial,94.64,11181642,8398858,10.04,3.4163
+ResNet18 Full,96.4,11181642,11181642,15.85,3.8358

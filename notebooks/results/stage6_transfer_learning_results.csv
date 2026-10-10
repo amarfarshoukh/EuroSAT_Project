@@ -1,0 +1,4 @@
+Transfer Mode,Total Parameters,Trainable Parameters,Learning Rate,Best Epoch,Peak Val Accuracy (%),Val Loss at Best,Train Accuracy at Best (%),Generalization Gap (%),Test Accuracy (%),Runtime (min),Latency (ms/image),Checkpoint
+Full,11181642,11181642,0.0001,3,96.12,0.1262,98.39,2.27,96.4,15.85,3.8358,resnet_full_finetuned.pth
+Partial,11181642,8398858,0.0001,3,95.01,0.1769,98.53,3.52,94.64,10.04,3.4163,resnet_partial_finetuned.pth
+Frozen,11181642,5130,0.001,4,85.63,0.4624,85.18,-0.45,85.58,8.64,3.1964,resnet_frozen.pth
