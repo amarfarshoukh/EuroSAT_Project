@@ -1,0 +1,5 @@
+Augmentation,Parameters,Best Epoch,Peak Val Accuracy (%),Val Loss at Best,Clean Train Accuracy (%),Generalization Gap (%),Runtime (min),Checkpoint
+No augmentation,2193674,5,90.02,0.2996,90.23,0.21,10.11,stage3_adamw_1e-3_scheduler.pth
+MixUp,2193674,5,89.78,0.3624,90.99,1.21,10.27,stage4_mixup.pth
+Flips + Crop,2193674,5,87.88,0.3536,88.2,0.32,11.91,stage4_flip_crop.pth
+Affine + ColorJitter,2193674,6,87.56,0.3751,88.47,0.91,12.43,stage4_affine_colorjitter.pth
